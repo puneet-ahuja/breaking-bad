@@ -1,0 +1,272 @@
+
+body{
+    background-color: pink
+}
+
+
+header{
+    width:100%;
+    height:200px;
+}
+
+#cover-photo{
+    height:100%;
+    width:100%;
+}
+
+.season{
+    position:relative;
+    width:80%;
+    margin:auto;
+    margin-top : 50px;
+
+}
+
+.season-image-container{
+    position: relative;
+    height: 300px;
+    width:100%;
+
+}
+
+.season-image{
+    width:100%;
+    height:100%;
+    margin: auto;
+}
+
+.season-image-container:hover .season-image{
+    box-shadow: 0px 0px 30px black;
+    opacity:0.2;   
+}
+
+.season-button{
+    display:none;
+
+    position: absolute;
+    height : auto;
+    width : auto;
+
+    top:10%;
+    left: 70%;
+
+    background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.season-image-container:hover .season-button{
+    display:block;
+    opacity : 1;
+}
+
+
+
+.episode{
+    position:relative;
+    width : 26%;
+    height : 200px;
+
+    float : left;
+
+    margin-left : 5%;
+    margin-top : 50px;
+
+}
+
+.episode-image-container{
+    position: relative;
+    height: 100%;
+    width:80%;
+}
+.episode-image{
+    width:100%;
+    height:100%;
+    margin: auto;
+}
+.episode-image-container:hover .episode-image{
+    box-shadow: 0px 0px 30px black;
+    opacity:0.2;   
+}
+
+.episode-button{
+    display:none;
+
+    position: absolute;
+    height : auto;
+    width : auto;
+
+    top:10%;
+    left: 70%;
+
+    background-color: #4CAF50;
+  color: white;
+ 
+}
+.episode-image-container:hover .episode-button{
+    display:block;
+    opacity : 1;
+}
+
+#search-episode{
+    height: 50px;
+    width :  50px;
+    float:right;
+    margin-right : 50px;
+}
+
+#search-container{
+    position:relative;
+    height:50px;
+    width:auto;
+}
+
+
+
+.search-box,.close-icon,.search-wrapper {
+	position: relative;
+	padding: 10px;
+}
+.search-wrapper {
+	width: 500px;
+	margin: auto;
+	margin-top: 50px;
+}
+.search-box {
+	width: 80%;
+	border: 1px solid #ccc;
+  outline: 0;
+  border-radius: 15px;
+}
+.search-box:focus {
+	box-shadow: 0 0 15px 5px #b0e0ee;
+	border: 2px solid #bebede;
+}
+.close-icon {
+	border:1px solid transparent;
+	background-color: transparent;
+	display: inline-block;
+	vertical-align: middle;
+  outline: 0;
+  cursor: pointer;
+}
+.close-icon:after {
+	content: "X";
+	display: block;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	background-color: #FA9595;
+	z-index:1;
+	right: 35px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	padding: 2px;
+	border-radius: 50%;
+	text-align: center;
+	color: white;
+	font-weight: normal;
+	font-size: 12px;
+	box-shadow: 0 0 2px #E50F0F;
+	cursor: pointer;
+}
+.search-box:not(:valid) ~ .close-icon {
+	display: none;
+}
+
+
+#hidden-overlay{
+            height : '0%';
+            width : '0%';
+            opacity : 0.2;
+            z-index : -1;
+}
+
+#visible-overlay{
+             position :fixed;
+            height : 100%;
+            width : 100%;
+            top : 0%;
+            left:0%;
+            background-color:black;
+            opacity : 0.4;
+            z-index : 4;
+}
+#hidden-popup{
+    position :fixed;
+            height : '0%';
+            width : '0%';
+            opacity : 1;
+            z-index : -1;
+}
+
+#visible-popup{
+            position :fixed;
+            top : 25%;
+            left:25%;
+            height : 50%;
+            width : 50%;
+            opacity : 1;
+            background-color:white;
+            z-index : 10;
+}
+
+#modal-header{
+    position : absolute;
+    top : 0%;
+    left:0%;
+    width:100%;
+    height: 20%;
+    background-color:pink;
+    text-align: center;
+    font-size: 20px;
+}
+
+#modal-body{
+    
+    position : absolute;
+    top : 20%;
+    left:0%;
+    width:100%;
+    height: 60%;
+    background-color:pink;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+#modal-body [type='text'] {
+    height:20%;
+    padding-right:10%;
+}
+
+#form-group{
+    margin-top:20%
+}
+
+#modal-footer{
+    position : absolute;
+    top : 80%;
+    left:0%;
+    width:100%;
+    height: 20%;
+    background-color:pink;
+}
+
+
+#update-button{
+    position:absolute;
+    height:60%;
+    width : 20%;
+    top : 20%;
+    left:20%;
+}
+
+#cancel-button{
+    position:absolute;
+    height:60%;
+    width : 20%;
+    top : 20%;
+    left:60%;
+}

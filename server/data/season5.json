@@ -1,0 +1,40 @@
+{
+    "title" : "Season 5",
+    "episodes" : [
+        {
+            "id" : "1",
+            "title" : "Episode 1",
+            "url" : "http://www.malcolminthemiddle.co.uk/gallery/data/988/Bryan-Cranston-Breaking-Bad-Season-2-Promo-MITMVC-4.jpg"
+        },
+        {
+            "id" : "2",
+            "title" : "Episode 2",
+            "url" : "http://www.malcolminthemiddle.co.uk/gallery/data/988/Bryan-Cranston-Breaking-Bad-Season-2-Promo-MITMVC-4.jpg"
+        },
+        {
+            "id" : "3",
+            "title" : "Episode 3",
+            "url" : "http://www.malcolminthemiddle.co.uk/gallery/data/988/Bryan-Cranston-Breaking-Bad-Season-2-Promo-MITMVC-4.jpg"
+        },
+        {
+            "id" : "4",
+            "title" : "Episode 4",
+            "url" : "http://www.malcolminthemiddle.co.uk/gallery/data/988/Bryan-Cranston-Breaking-Bad-Season-2-Promo-MITMVC-4.jpg"
+        },
+        {
+            "id" : "5",
+            "title" : "Episode 5",
+            "url" : "http://www.malcolminthemiddle.co.uk/gallery/data/988/Bryan-Cranston-Breaking-Bad-Season-2-Promo-MITMVC-4.jpg"
+        },
+        {
+            "id" : "6",
+            "title" : "Episode 6",
+            "url" : "http://www.malcolminthemiddle.co.uk/gallery/data/988/Bryan-Cranston-Breaking-Bad-Season-2-Promo-MITMVC-4.jpg"
+        },
+        {
+            "id" : "7",
+            "title" : "Episode 7",
+            "url" : "http://www.malcolminthemiddle.co.uk/gallery/data/988/Bryan-Cranston-Breaking-Bad-Season-2-Promo-MITMVC-4.jpg"
+        }
+    ]
+}
